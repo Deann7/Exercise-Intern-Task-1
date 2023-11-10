@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Week 2</title>
+  <link rel="stylesheet" type="text/css" href="exe.css">
+</head>
+<div class="Container">
+  <header> 
+  <h1>Contact Me</h1>
+</header>
+<body>
+  
+    <form> 
+    <center>
+      <label for="subject">Subject</label><br/><br/>
+      <input class="text-input" type="text" id="sbj" name="subject" placeholder="Write the subject..." maxlength="20" minlength="5" required><br/><br/>
+      <label for="message">Message</label><br/><br/>
+      <textarea class="message-input" id="message" name="message" placeholder="Write message...." style="height:200px" cols="40" maxlength="540" minlength="20" required></textarea>
+      <br/>
+      <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+  </center>
+  </div>
+  <script src="exe.js">
+  </script>
+</body>
+</html>
